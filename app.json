@@ -17,7 +17,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Snapchat uses the camera to capture pictures and videos",
+        "NSPhotoLibraryAddUsageDescription": "Give Snapchat permission to save photos"
+      }
     },
     "android": {
       "adaptiveIcon": {
