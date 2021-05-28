@@ -58,11 +58,11 @@ class CameraComponent extends Component {
               }}
             >
               <View style={{ flexDirection: "row", flex: 4 }}>
-                <Icon name='logo-snapchat' style={{ color: "white" }} />
+                <Icon name='logo-snapchat' style={{ color: "white", paddingTop: 14 }} />
                 <Item style={{ backgroundColor: "transparent" }}>
                   <Icon
                     name='ios-search'
-                    style={{ color: "white", fontSize: 24, fontWeight: "bold" }}
+                    style={{ color: "white", fontSize: 20, fontWeight: "bold", marginTop: 9 }}
                   />
                 </Item>
               </View>
@@ -76,7 +76,7 @@ class CameraComponent extends Component {
               >
                 <Icon
                   name='ios-flash'
-                  style={{ color: "white", fontWeight: "bold", paddingTop: 12 }}
+                  style={{ color: "white", fontWeight: "bold", paddingTop: 14 }}
                 />
                 <Icon
                   onPress={() => {
@@ -88,7 +88,7 @@ class CameraComponent extends Component {
                     });
                   }}
                   name='ios-camera-reverse'
-                  style={{ color: "white", fontWeight: "bold", paddingTop: 12 }}
+                  style={{ color: "white", fontWeight: "bold", paddingTop: 14 }}
                 />
               </View>
             </Header>

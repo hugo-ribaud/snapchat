@@ -3,6 +3,7 @@ import { Router, Stack, Scene } from "react-native-router-flux";
 import Register from "./Components/Register";
 import Login from "./Components/Login";
 import Camera from "./Components/Camera";
+import List from "./Components/List";
 
 
 export default class Routes extends Component {
@@ -13,6 +14,7 @@ export default class Routes extends Component {
                     <Scene key='Login' component={Login} title='Login' initial={true} />
                     <Scene key='Register' component={Register} title='Register' />
                     <Scene key='Camera' component={Camera} title='Camera' />
+                    <Scene key='List' component={List} title='List' />
                 </Stack>
             </Router>
         );
